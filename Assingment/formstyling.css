@@ -1,0 +1,210 @@
+body{
+    margin:30px 260px 0px 257px ;
+    
+    font-family: roboto,'Noto Sans Myanmar UI',arial,sans-serif;
+    color: #202124;
+}
+
+ /* --------------------------Main container--------------------- */
+
+.container{
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    height: 580px;
+    /* display: inline-block; */
+    padding: 12px 40px 12px 40px;
+    display: flex;
+    /* flex-direction: column; */
+    
+
+    
+}
+
+ /* --------------------------leftdiv--------------------- */
+
+
+.leftdiv{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.name{
+    padding: 9px;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+}
+
+
+.googleworld{
+    margin-top: 25px ;
+
+}
+.googleworld a{
+    text-decoration: none;    
+}
+
+.googleworld a span{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.paragraph{
+    font-size: 25px; 
+    font-weight: 300;
+    color: #202124;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 1.3333;
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+
+
+/* -------------username css------------- */
+
+.usernamediv{
+    margin-top: 10px;
+}
+
+.usernamediv p{
+    color: #5f6368;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+
+
+}
+
+
+/* ------------------------password css------------------- */
+.passworddiv{
+    margin-top: -12px;
+}
+.passworddiv p{
+    color: #5f6368;
+    font-size: 12px;
+    margin-top: 2px;
+    margin-left: 10px;  
+}
+
+/* -------------------------cheak box css------------ */
+
+.chkbox{
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 10px;
+    height: 18px;
+    width: 18px;
+    
+}
+
+.chkboxdiv{
+    display: flex;
+    margin-top: -10px;
+   
+}
+
+/* -------------------button css------------------------ */
+
+.btndiv{
+    display: flex;
+    margin-top: 36px;
+}
+
+.signhrf{
+    color: #1a73e8;
+    text-decoration: none;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 10px;
+    
+}
+.btn{
+    /* padding: 7px; */
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    /* color: white;
+    background-color: #1a73e8; */
+    background: #1a73e8;
+    border: 2px solid #1a73e8;
+    font-size:13px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 200px;
+    padding: 7px 23px 7px 23px;
+    font-weight: 500;
+    
+    
+
+}
+
+ /* --------------------------rightdiv--------------------- */
+
+
+.rightdiv img{
+    /* padding-top: -50px; */
+    width: 255px;
+    height: 255px;
+    display: flex;
+    /* float: right; */
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+    
+}
+.rightdiv p{
+    
+    text-align: center;
+    /* font-size: 17px;
+    font-weight: lighter; */
+    font-size: 16px;
+    font-weight: 100;
+    /* color: #5f6368;  */
+    color: #202124;
+    
+}
+
+
+
+ /* --------------------------bottomdiv--------------------- */
+.bottomdiv{
+    display: flex;
+}
+
+ .terms{
+     display: flex;
+     /* flex-direction: column; */
+     /* float: right; */
+     margin: 5px -15px 0px 367px;
+     
+
+ }
+ .bottomdiv p{
+     font-size: 13px;
+     color: #5f6368;
+     margin-top: 20px;
+
+ }
+
+ .bottomdiv select{
+    border:0px none white;
+    
+    margin-top: 20px;
+    
+    width: 20px ;
+    margin-left: 2px;
+    height: 20px;
+ }
+
+ .terms h6{
+     margin: 20px;
+     font-size: 12px;
+     color: #5f6368;
+ }
